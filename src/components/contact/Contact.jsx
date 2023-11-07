@@ -1,14 +1,14 @@
 import React from 'react'
 import './contact.css'
-import {MdEmail} from 'react-icons/md'
-import {RiMessengerFill} from 'react-icons/ri'
-import {IoLogoWhatsapp} from 'react-icons/io'
+import { MdEmail } from 'react-icons/md'
+import { RiMessengerFill } from 'react-icons/ri'
+import { IoLogoWhatsapp } from 'react-icons/io'
 import { useRef } from "react";
 import emailjs from 'emailjs-com'
 
 export const Contact = () => {
   const form = useRef();
-  const sendEmail = (e) => {
+  const sendEmail = ( e ) => {
     e.preventDefault();
 
     emailjs
@@ -19,8 +19,8 @@ export const Contact = () => {
         "VZpQxg23Nyq8tc1Da"
       )
 
-      e.target.reset();
-      
+    e.target.reset();
+
   };
   return (
     <section id="contact">
@@ -55,8 +55,8 @@ export const Contact = () => {
             </a>
           </article>
         </div>
-        {/* form to message */}
-        <form ref={form} onSubmit={sendEmail}>
+        {/* form to message */ }
+        <form ref={ form } onSubmit={ sendEmail }>
           <input
             type="text"
             name="name"

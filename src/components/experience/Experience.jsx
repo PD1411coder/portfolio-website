@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import { BsPatchCheckFill } from 'react-icons/bs'
 export const Experience = () => {
   return (
     <section id="experience">
@@ -14,6 +14,20 @@ export const Experience = () => {
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
+                <h4>Angular</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>React</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
               </div>
@@ -22,20 +36,20 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 <h4>Javascript</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>React</h4>
+                <h4>Bootstrap</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -47,15 +61,43 @@ export const Experience = () => {
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>Pyhton</h4>
+                <h4>Node.js</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>Node JS</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>Python</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>MySQL</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>AWS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Redis</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Socket.io</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
